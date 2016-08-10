@@ -12,7 +12,7 @@ public protocol IntervalSliderDelegate {
     func confirmValue(slider: IntervalSlider, validValue: Float)
 }
 
-public class IntervalSliderSource {
+@objc public class IntervalSliderSource: NSObject {
     private var validValue: Float
     private var appearanceValue: Float
     private var shield: UIButton?
@@ -41,7 +41,7 @@ public enum IntervalSliderOption {
     case ThumbImage(UIImage)
 }
 
-public class IntervalSlider: UIView {
+@objc public class IntervalSlider: UIView {
     
     private class TapSlider: UISlider {
         override init(frame: CGRect) {
