@@ -1,14 +1,12 @@
 PODS:
-  - IntervalSlider (0.1.0)
+  - IntervalSlider (0.0.1)
 
 DEPENDENCIES:
-  - IntervalSlider (from `../`)
-
-EXTERNAL SOURCES:
-  IntervalSlider:
-    :path: ../
+  - IntervalSlider
 
 SPEC CHECKSUMS:
-  IntervalSlider: 2635d3172722c3f7ccc41c5086216f9d526afc05
+  IntervalSlider: c3793ca0986f17d134b2fbcd82adb845cb711481
 
-COCOAPODS: 0.38.2
+PODFILE CHECKSUM: 0d1f959adbe1a1136736b527d672cee07f752a0c
+
+COCOAPODS: 1.0.1

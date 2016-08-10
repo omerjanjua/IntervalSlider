@@ -12,11 +12,11 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		9238B0B17BABBC31EA8D228A /* Pods_IntervalSlider_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A1B90BE4759DF6C146F971 /* Pods_IntervalSlider_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7AEBA0C5EDF1D277339EFD89 /* Pods_IntervalSlider_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFE69BAA3466136D81242D6 /* Pods_IntervalSlider_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30A1B90BE4759DF6C146F971 /* Pods_IntervalSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntervalSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBCC9D7A8110E24AE27B080 /* Pods-IntervalSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntervalSlider_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntervalSlider_Example/Pods-IntervalSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* IntervalSlider_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntervalSlider_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,13 +26,10 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		653B93D51E8E206969B29E52 /* Pods-IntervalSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntervalSlider_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntervalSlider_Example/Pods-IntervalSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6749770ABFCF2E87BB0E289A /* Pods_IntervalSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntervalSlider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73F0CE49679B033267C23DE2 /* Pods-IntervalSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntervalSlider_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntervalSlider_Example/Pods-IntervalSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7A6D68D2805732911C359763 /* IntervalSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IntervalSlider.podspec; path = ../IntervalSlider.podspec; sourceTree = "<group>"; };
-		7D35C8354F0368EAF0931708 /* Pods-IntervalSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntervalSlider_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntervalSlider_Tests/Pods-IntervalSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		843CD76E2E7718A287EAEFA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C43DDE4869C125CB436EA2FC /* Pods-IntervalSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntervalSlider_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntervalSlider_Tests/Pods-IntervalSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFFE69BAA3466136D81242D6 /* Pods_IntervalSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntervalSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB031B83A97C14D7581BC7C /* Pods-IntervalSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntervalSlider_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntervalSlider_Example/Pods-IntervalSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F3201A19D09FACEB7B2D7218 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,22 +38,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9238B0B17BABBC31EA8D228A /* Pods_IntervalSlider_Example.framework in Frameworks */,
+				7AEBA0C5EDF1D277339EFD89 /* Pods_IntervalSlider_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01A4C2D01BB269C14F2378A7 /* Pods */ = {
+		589389A8D5BAD0B1F17289D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				653B93D51E8E206969B29E52 /* Pods-IntervalSlider_Example.debug.xcconfig */,
-				73F0CE49679B033267C23DE2 /* Pods-IntervalSlider_Example.release.xcconfig */,
-				C43DDE4869C125CB436EA2FC /* Pods-IntervalSlider_Tests.debug.xcconfig */,
-				7D35C8354F0368EAF0931708 /* Pods-IntervalSlider_Tests.release.xcconfig */,
+				DFFE69BAA3466136D81242D6 /* Pods_IntervalSlider_Example.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -66,8 +60,8 @@
 				607FACD21AFB9204008FA782 /* Example for IntervalSlider */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				01A4C2D01BB269C14F2378A7 /* Pods */,
-				B0A3531D4C3B45EA0315EC79 /* Frameworks */,
+				C85D65357DAD57ECC574A71F /* Pods */,
+				589389A8D5BAD0B1F17289D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,13 +122,13 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		B0A3531D4C3B45EA0315EC79 /* Frameworks */ = {
+		C85D65357DAD57ECC574A71F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				30A1B90BE4759DF6C146F971 /* Pods_IntervalSlider_Example.framework */,
-				6749770ABFCF2E87BB0E289A /* Pods_IntervalSlider_Tests.framework */,
+				3DBCC9D7A8110E24AE27B080 /* Pods-IntervalSlider_Example.debug.xcconfig */,
+				EEB031B83A97C14D7581BC7C /* Pods-IntervalSlider_Example.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,12 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "IntervalSlider_Example" */;
 			buildPhases = (
-				85BF5512847BF42CDBFFA5F5 /* Check Pods Manifest.lock */,
+				B9E77C1B63791BAE85E06776 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				52C18E66079151156A038096 /* Embed Pods Frameworks */,
-				88B4747485A0F1C44D4248C1 /* Copy Pods Resources */,
+				F4841736D39F5D8A5A98E017 /* [CP] Embed Pods Frameworks */,
+				4F4F255A028E552B7049CCFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,29 +201,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		52C18E66079151156A038096 /* Embed Pods Frameworks */ = {
+		4F4F255A028E552B7049CCFF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntervalSlider_Example/Pods-IntervalSlider_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntervalSlider_Example/Pods-IntervalSlider_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		85BF5512847BF42CDBFFA5F5 /* Check Pods Manifest.lock */ = {
+		B9E77C1B63791BAE85E06776 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,19 +231,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		88B4747485A0F1C44D4248C1 /* Copy Pods Resources */ = {
+		F4841736D39F5D8A5A98E017 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntervalSlider_Example/Pods-IntervalSlider_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntervalSlider_Example/Pods-IntervalSlider_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -370,7 +364,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 653B93D51E8E206969B29E52 /* Pods-IntervalSlider_Example.debug.xcconfig */;
+			baseConfigurationReference = 3DBCC9D7A8110E24AE27B080 /* Pods-IntervalSlider_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IntervalSlider/Info.plist;
@@ -383,7 +377,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73F0CE49679B033267C23DE2 /* Pods-IntervalSlider_Example.release.xcconfig */;
+			baseConfigurationReference = EEB031B83A97C14D7581BC7C /* Pods-IntervalSlider_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IntervalSlider/Info.plist;

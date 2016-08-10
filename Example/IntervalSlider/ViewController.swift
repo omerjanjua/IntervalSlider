@@ -43,74 +43,69 @@ class ViewController: UIViewController {
     self.intervalSlider2 = IntervalSlider(frame: self.sliderView2.bounds, sources: result.sources, options: result.options)
   }
   
-  private func createSources() -> [IntervalSliderSource] {
-    // Sample of equally inttervals
-    var sources = [IntervalSliderSource]()
-    var appearanceValue: Float = 0
-    
-    for data in self.data1 {
-      let label = UILabel(frame: CGRect(x: 0, y: 0, width: 35, height: 20))
-      label.text = "\(Int(data))"
-      label.font = UIFont.systemFontOfSize(CGFloat(12))
-      label.textColor = UIColor.redColor()
-      label.textAlignment = .Center
-      let source = IntervalSliderSource(validValue: data, appearanceValue: appearanceValue, label: label)
-      sources.append(source)
-      appearanceValue += 25
+    private func createSources() -> [IntervalSliderSource] {
+        // Sample of equally inttervals
+        var sources = [IntervalSliderSource]()
+        var appearanceValue: Float = 0
+        
+        for data in self.data1 {
+            let label = UILabel(frame: CGRect(x: 0, y: 0, width: 35, height: 20))
+            label.text = "\(Int(data))"
+            label.font = UIFont.systemFontOfSize(CGFloat(12))
+            label.textColor = UIColor.redColor()
+            label.textAlignment = .Center
+            
+            let imageView = UIButton(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+            imageView.setImage(UIImage(named: "1"), forState: .Normal)
+            let source = IntervalSliderSource(validValue: data, appearanceValue: appearanceValue, shield: imageView)
+            sources.append(source)
+            appearanceValue += 25
+        }
+        return sources
     }
-    return sources
-  }
   
-  private func createSources2() -> (sources: [IntervalSliderSource], options: [IntervalSliderOption]) {
-    // Sample of irregular inttervals
-    var sources = [IntervalSliderSource]()
-    var appearanceValue: Float = 0
-    let data = self.data2
-    
-    let minLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 35, height: 20))
-    minLabel.text = "Min"
-    minLabel.font = UIFont.systemFontOfSize(CGFloat(12))
-    minLabel.textColor = UIColor.grayColor()
-    minLabel.textAlignment = .Center
-    let minSource = IntervalSliderSource(validValue: data[0], appearanceValue: appearanceValue, label: minLabel)
-    sources.append(minSource)
-    appearanceValue += 15
-    
-    let shortLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 35, height: 20))
-    shortLabel.text = "Short"
-    shortLabel.font = UIFont.systemFontOfSize(CGFloat(12))
-    shortLabel.textColor = UIColor.grayColor()
-    shortLabel.textAlignment = .Center
-    let shortSource = IntervalSliderSource(validValue: data[1], appearanceValue: appearanceValue, label: shortLabel)
-    sources.append(shortSource)
-    appearanceValue += 35
-    
-    let longLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 35, height: 20))
-    longLabel.text = "Long"
-    longLabel.font = UIFont.systemFontOfSize(CGFloat(12))
-    longLabel.textColor = UIColor.grayColor()
-    longLabel.textAlignment = .Center
-    let longSource = IntervalSliderSource(validValue: data[2], appearanceValue: appearanceValue, label: longLabel)
-    sources.append(longSource)
-    appearanceValue += 15
-    
-    let maxLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 35, height: 20))
-    maxLabel.text = "Max"
-    maxLabel.font = UIFont.systemFontOfSize(CGFloat(12))
-    maxLabel.textColor = UIColor.grayColor()
-    maxLabel.textAlignment = .Center
-    let maxSource = IntervalSliderSource(validValue: data[3], appearanceValue: appearanceValue, label: maxLabel)
-    sources.append(maxSource)
-    
-    let options: [IntervalSliderOption] = [
-      .MaximumValue(appearanceValue),
-      .MinimumValue(0),
-      .AddMark(true),
-      .LabelBottomPadding(1),
-      .MinimumTrackTintColor(UIColor.redColor())
-    ]
-    return (sources, options)
-  }
+    private func createSources2() -> (sources: [IntervalSliderSource], options: [IntervalSliderOption]) {
+        // Sample of irregular inttervals
+        var sources = [IntervalSliderSource]()
+        var appearanceValue: Float = 0
+        let data = self.data2
+
+        
+        let imageView = UIButton(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+        imageView.setImage(UIImage(named: "1"), forState: .Normal)
+        let minSource = IntervalSliderSource(validValue: data[0], appearanceValue: appearanceValue, shield: imageView)
+        sources.append(minSource)
+        appearanceValue += 15
+
+        
+        let imageView2 = UIButton(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+        imageView2.setImage(UIImage(named: "2"), forState: .Normal)
+        let shortSource = IntervalSliderSource(validValue: data[1], appearanceValue: appearanceValue, shield: imageView2)
+        sources.append(shortSource)
+        appearanceValue += 3
+
+        
+        let imageView3 = UIButton(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+        imageView3.setImage(UIImage(named: "3"), forState: .Normal)
+        let longSource = IntervalSliderSource(validValue: data[2], appearanceValue: appearanceValue, shield: imageView3)
+        sources.append(longSource)
+        appearanceValue += 15
+
+        
+        let imageView4 = UIButton(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+        imageView4.setImage(UIImage(named: "4"), forState: .Normal)
+        let maxSource = IntervalSliderSource(validValue: data[3], appearanceValue: appearanceValue, shield: imageView4)
+        sources.append(maxSource)
+        
+        let options: [IntervalSliderOption] = [
+            .MaximumValue(appearanceValue),
+            .MinimumValue(0),
+            .AddMark(true),
+            .LabelBottomPadding(1),
+            .MinimumTrackTintColor(UIColor.redColor())
+        ]
+        return (sources, options)
+    }
 }
 
 extension ViewController: IntervalSliderDelegate {
